@@ -1,7 +1,7 @@
 # R Basics with Examples.
 ## Data Types
 # numerics,character and logical
-temperature <- 84.5
+temperature = 27.5
 class(temperature)
 RPI <- "Rensselaer Polytechnic Institue"
 class(RPI)
@@ -19,12 +19,12 @@ class(num_vec)
 
 cha_vec <- c("R","P","I")
 class(cha_vec)
-boolean_vec <- c(T,FALSE) # T = TRUE, you can simply use T for TURE
+boolean_vec <- c(T,FALSE, TRUE,F) # T = TRUE, you can simply use T for TURE
 class(boolean_vec)
 # mixed variable types
 vec_mixed <- c("RPI", 1824, 3.14)
 vec_mixed
-class(vec_mixed) # Note: the 20 and 3.14 are converted to characters
+class(vec_mixed) # Note: the 1824 and 3.14 are converted to characters
 vec_mixed_boolean <- c(TRUE,"RPI", 1824, 3.14)
 vec_mixed_boolean
 class(vec_mixed_boolean)
@@ -33,6 +33,7 @@ vec_numeric_boolean
 class(vec_numeric_boolean)
 
 temperature <- c(80,81.3,83,84.2,82.5)
+temperature
 names(temperature) <- c("Mon","Tue","Web","Thur","Fri")
 temperature
 # You can do the same thing by: 

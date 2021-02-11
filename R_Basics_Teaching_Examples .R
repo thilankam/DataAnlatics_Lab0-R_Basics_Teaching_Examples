@@ -7,9 +7,9 @@ RPI <- "Rensselaer Polytechnic Institue"
 class(RPI)
 Rpi <- 3.14159265359
 class(Rpi)
-isSnowing <- TRUE
+isSnowing <- FALSE
 class(isSnowing)
-R <- FALSE
+R <- T
 class(R)
 
 
@@ -22,7 +22,7 @@ class(cha_vec)
 boolean_vec <- c(T,FALSE, TRUE,F) # T = TRUE, you can simply use T for TURE
 class(boolean_vec)
 # mixed variable types
-vec_mixed <- c("RPI", 1824, 3.14)
+vec_mixed <- c("RPI",1824, 3.14)
 vec_mixed
 class(vec_mixed) # Note: the 1824 and 3.14 are converted to characters
 vec_mixed_boolean <- c(TRUE,"RPI", 1824, 3.14)

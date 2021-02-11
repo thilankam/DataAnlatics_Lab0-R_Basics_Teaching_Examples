@@ -1,7 +1,7 @@
 # R Basics with Examples.
 ## Data Types
 # numerics,character and logical
-temperature = 27.5
+temperature = 27.5 # temperature in Fahrenheit
 class(temperature)
 RPI <- "Rensselaer Polytechnic Institue"
 class(RPI)

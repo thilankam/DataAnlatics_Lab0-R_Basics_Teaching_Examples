@@ -114,6 +114,7 @@ factor.undergrads
 summary(factor.undergrads)
 
 # Exercise
+# Row bind example
 A <- c(1,2,3)
 B <- c(4,5,6)
 A <- rbind(A,B)
